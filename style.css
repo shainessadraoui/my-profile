@@ -1,0 +1,52 @@
+/* Colors and fonts */
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: Futura;
+	font-size: 17px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: "Futura" , sans-serif;
+}
+
+
+h1 {
+	color: #d816a7;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #3b5ca7;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+	font-family: "Futura", sans-serif;
+	text-decoration: none;
+	color: #d816a7;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: black;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 15px black;
+	border-radius: 10px;
+	margin: 60px 0px;
+	text-align: center;
+}
